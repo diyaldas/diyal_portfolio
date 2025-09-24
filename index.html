@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyal Das - Frontend Developer Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of Diyal Das, a frontend developer specializing in accessible, semantic web development and modern UI/UX.">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Diyal Das - Frontend Developer">
+    <meta property="og:description"
+        content="Professional portfolio of Diyal Das, a frontend developer specializing in accessible, semantic web development.">
+    <meta property="og:type" content="website">
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="./assets/images/Diyal.jpg" as="image">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Skip to Main Content --> <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#home" class="nav__logo">Diyal Das</a>
+            <button class="nav__toggle js-mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle js-theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-toggle__icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="hero__content">
+                <span class="hero__label">Frontend Developer</span>
+                <h1 id="hero-heading">Diyal Das</h1>
+                <p class="hero__tagline">Building accessible, performant web experiences with semantic HTML and modern
+                    CSS</p>
+                <p class="hero__intro">I create digital solutions that are both beautiful and functional, with a focus
+                    on user experience and clean code.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Hire Me</a>
+                    <a href="./assets/Documents/Diyal Das resume as Frontend developer.pdf" class="btn btn--secondary" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="./assets/images/Diyal.jpg" alt="Diyal Das — professional portrait" width="400" height="400"
+                    loading="eager">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <div class="about__content">
+                    <article class="about__text">
+                        <p>I'm a passionate frontend developer with several years of experience creating web
+                            applications that are both visually appealing and highly functional. My journey began with
+                            curiosity about how websites work, and has evolved into a career focused on building
+                            accessible, semantic web experiences.</p>
+                        <p>When I'm not coding, you can find me exploring new web technologies, contributing to open
+                            source projects, or sharing knowledge with the developer community. I believe in continuous
+                            learning and staying updated with the latest industry trends and best practices.</p>
+
+                        <h3>Personal Highlights</h3>
+                        <ul class="about__highlights">
+                            <li>Strong advocate for web accessibility and inclusive design</li>
+                            <li>Experienced in mentoring junior developers</li>
+                            <li>Active participant in local tech meetups and hackathons</li>
+                            <li>Passionate about performance optimization and clean code</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Services Section -->
+        <section id="skills" class="skills" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading">Skills & Services</h2>
+                <div class="skills__grid">
+                    <article class="skills__category">
+                        <h3>Technical Stack</h3>
+                        <ul class="skills__list">
+                            <li class="skill-badge" data-skill="html5">HTML5</li>
+                            <li class="skill-badge" data-skill="css3">CSS3</li>
+                            <li class="skill-badge" data-skill="javascript">JavaScript</li>
+                            <li class="skill-badge" data-skill="bootstrap">Bootstrap</li>
+                        </ul>
+                    </article>
+
+                    <article class="skills__category">
+                        <h3>Services Offered</h3>
+                        <ul class="services__list">
+                            <li>
+                                <h4>Responsive UI Development</h4>
+                                <p>Creating layouts that work seamlessly across all devices and screen sizes</p>
+                            </li>
+                            <li>
+                                <h4>Component Development</h4>
+                                <p>Building reusable, maintainable UI components with modern practices</p>
+                            </li>
+                            <li>
+                                <h4>Landing Pages</h4>
+                                <p>Designing and developing high-converting landing pages optimized for performance</p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Projects</h2>
+                <div class="projects__grid">
+                    <!-- Project Template 1 -->
+                    <article class="project-card" data-project="1">
+                        <div class="project-card__image">
+                            <img src="assets/project-1.png" alt="Template Project 1 - screenshot placeholder"
+                                loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Template Project 1</h3>
+                            <p class="project-card__description">This is a placeholder project description. Replace with
+                                your actual project details, goals, and outcomes.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--small"
+                                    aria-label="View live demo of Template Project 1">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline"
+                                    aria-label="View source code for Template Project 1">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Template 2 -->
+                    <article class="project-card" data-project="2">
+                        <div class="project-card__image">
+                            <img src="assets/project-2.png" alt="Template Project 2 - screenshot placeholder"
+                                loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Template Project 2</h3>
+                            <p class="project-card__description">This is a placeholder project description. Replace with
+                                your actual project details, goals, and outcomes.</p>
+                            <ul class="project-card__tags">
+                                <li>Responsive</li>
+                                <li>Accessibility</li>
+                                <li>UI/UX</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--small"
+                                    aria-label="View live demo of Template Project 2">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline"
+                                    aria-label="View source code for Template Project 2">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Template 3 -->
+                    <article class="project-card" data-project="3">
+                        <div class="project-card__image">
+                            <img src="assets/project-3.png" alt="Template Project 3 - screenshot placeholder"
+                                loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Template Project 3</h3>
+                            <p class="project-card__description">This is a placeholder project description. Replace with
+                                your actual project details, goals, and outcomes.</p>
+                            <ul class="project-card__tags">
+                                <li>Component</li>
+                                <li>Modern</li>
+                                <li>Clean Code</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--small"
+                                    aria-label="View live demo of Template Project 3">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline"
+                                    aria-label="View source code for Template Project 3">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Template 4 -->
+                    <article class="project-card" data-project="4">
+                        <div class="project-card__image">
+                            <img src="assets/project-4.png" alt="Template Project 4 - screenshot placeholder"
+                                loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Template Project 4</h3>
+                            <p class="project-card__description">This is a placeholder project description. Replace with
+                                your actual project details, goals, and outcomes.</p>
+                            <ul class="project-card__tags">
+                                <li>Landing Page</li>
+                                <li>Performance</li>
+                                <li>SEO</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--small"
+                                    aria-label="View live demo of Template Project 4">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline"
+                                    aria-label="View source code for Template Project 4">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get In Touch</h2>
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <h3>Contact Information</h3>
+                        <ul class="contact__details">
+                            <li>
+                                <strong>Email:</strong>
+                                <a href="mailto:diyalwasandani@gmail.com">diyalwasandani@gmail.com</a>
+                            </li>
+                            <li>
+                                <strong>GitHub:</strong>
+                                <a href="https://github.com/diyaldas" target="_blank"
+                                    rel="noopener">github.com/diyaldas</a>
+                            </li>
+                            <li>
+                                <strong>LinkedIn:</strong>
+                                <a href="https://www.linkedin.com/in/diyaldas-webdev" target="_blank"
+                                    rel="noopener">linkedin.com/in/diyaldas-webdev</a>
+                            </li>
+                            <li>
+                                <strong>Phone:</strong>
+                                <a href="tel:03450820568">0345 082 0568</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact__form" id="contact-form" aria-labelledby="contact-heading">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Achievements/Testimonials Sidebar -->
+    <aside class="sidebar" aria-labelledby="sidebar-heading">
+        <h3 id="sidebar-heading" class="visually-hidden">Achievements & Testimonials</h3>
+        <div class="sidebar__content">
+            <article class="testimonial">
+                <blockquote>
+                    <p>"Diyal delivered exceptional work on our project. The attention to accessibility and code quality
+                        was impressive."</p>
+                    <footer>— Client Name, Company</footer>
+                </blockquote>
+            </article>
+            <article class="achievement">
+                <h4>Recent Achievement</h4>
+                <p>Successfully optimized website performance, reducing load times by 40% across all devices.</p>
+            </article>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Diyal Das. All rights reserved.</p>
+            <ul class="footer__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
